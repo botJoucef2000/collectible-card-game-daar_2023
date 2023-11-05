@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: #2b5876; /* Gradient background color */
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url("pokemon-card-background-1200-x-900-2gaz64cngkl58x4o\(1\).jpg") no-repeat center/cover; /* Replace with your background image URL */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+    font-weight: bold;
+    /* Use the Pokemon Solid font */
+font-family: "Pokemon Solid", sans-serif;
+
+/* Apply text fill color (inside color) */
+-webkit-text-fill-color: #ffcc29; /* Pokémon Yellow */
+
+/* Apply text outline (border) */
+-webkit-text-stroke: 2px #4a90e2; /* Pokémon Blue */
+
+/* Set the font size and weight */
+font-size: 2.5em;
+font-weight: bold;
+
+}
+img {
+    align-self:center;
+    
+}
+p { 
+    font-size: 1.2em;
+    margin: 20px 0;
+    /* Use the Pokemon Solid font */
+font-family: "Pokemon Solid", sans-serif;
+
+/* Apply text fill color (inside color) */
+-webkit-text-fill-color: #ffcc29; /* Pokémon Yellow */
+
+/* Apply text outline (border) */
+-webkit-text-stroke: 2px #4a90e2; /* Pokémon Blue */
+
+/* Set the font size and weight */
+font-size: 2.5em;
+font-weight: bold;
+
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background: #ff7f50; /* Coral color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+    font-weight: bold;
+}
+
+a:hover {
+    background: #ff6347; /* Slightly darker shade of Coral */
+}
+

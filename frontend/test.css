@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: #4a90e2; /* Pokémon Blue */
+}
+
+.main {
+    width: 350px;
+    height: 500px;
+    background: url("pokemon-background.jpg") no-repeat center/cover; /* Replace with your Pokémon TCG-themed background */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.3em;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    background: #ffcc29; /* Pokémon Yellow */
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    background: #ffcc29; /* Pokémon Yellow */
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ffc107; /* Slightly darker shade of Pokémon Yellow */
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,89 @@
+/* Login.css */
+
+/* Styles for the header and navigation bar */
+header {
+    background-color: #3b4cca;
+    color: #ffde00;
+    text-align: center;
+    position: fixed;
+    padding: 20px 5px; /* Increase top and bottom padding */
+    top: 0;
+    z-index: 100;
+    width: 100%;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: start;
+    margin-bottom: 2vh;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 2vw;
+    margin-bottom: 0.8vh;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+    font-size: 2.2vh; /* Increase font size */
+    transition: color 0.3s; /* Add a smooth transition effect for color changes */
+    background-color: #ffde00;
+    border-radius: 2.5vh;
+    padding: 1vh;
+    font-style: bold;
+    
+    
+}
+
+/* Add a hover effect to change the text color when hovered */
+nav ul li a:hover {
+    color: #ffcc00; /* Change the text color to a different color on hover */
+    background-color:#ff0000 ;
+}
+
+/* Styles for the main content */
+.main {
+    text-align: center;
+    background: url("thimo-pedersen-dip9IIwUK6w-unsplash.jpg") no-repeat center/cover; 
+}
+
+.content {
+    
+
+  
+    min-height: calc(100vh - 80px);
+}
+
+h1 {
+    font-family: 'Jost', sans-serif;
+}
+
+/* Add more styles for your specific elements as needed */
+.pokemon {
+    margin-top: 10vh;
+}
+
+.pokemon2 {
+    height: 1100px;
+}
+
+#Logged {
+    margin-left: 50vw;
+}
+
+#logo {
+    position: relative;
+    height: 5vh;
+    width: 1vw;
+}
+
+
+
+
+

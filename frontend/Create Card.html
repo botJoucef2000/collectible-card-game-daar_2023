@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Your NFT Collection</title>
+    <link rel="stylesheet" type="text/css" href="minto.css">
+    <meta name="viewport" content="width=device-width, initial-scale=0.3">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <script src="CreateCard.js" ></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="cards">
+                <li><a href="minto.html">MINT</a></li>
+                <li><a  href="Transfer.html">Transfer</a></li>
+                <li><a href="collection.html">CREATE Collection</a></li>
+                <li><a  href="Create Card.html.html">CREATE Card</a></li>
+                <li><a id="Card" href="">Cards</a></li>
+                <li><a id="Card" href="">Collections</a></li>
+                <li><a id="Logged" href="">Logged as SU</a></li>
+                <li><a href="Login.html"><img id="logo" src="pngegg(1).png" alt=""> Disconnect</a></ul>
+                
+        </nav>
+    </header>
+    <div class="main">
+        <div class="content">
+            <br><br>
+            <h1><img class="pokemon" src="pngegg.png" alt="Pokémon Trading Card Game"><img  class="pokemon2" src="pngwing.com.png" alt="Pokémon Trading Card Game"></h1>
+            <!-- Add a form for collecting user's address and cardID -->
+            <form id="nftForm" action="http://localhost:3001/createCard" method="post">
+                <label for="cardName">Card Name:</label>
+                <input type="text" id="cardName" name="cardName" required><br>
+            
+                <label for="collectionId">Collection ID:</label>
+                <input type="text" id="collectionId" name="collectionId" required><br>
+                
+                <label for="cardURI">Card URI:</label>
+                <input type="text" id="cardURI" name="cardURI" required><br>
+                <input type="hidden" id="privateKey" name="privateKey">
+            
+                <input type="submit" value="ADD">
+                
+                <h2 id="Addedsucessfuly"></h2>
+            </form>
+            
+        </div>
+</body>
+</html>

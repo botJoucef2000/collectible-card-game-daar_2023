@@ -1,0 +1,178 @@
+/* Login.css */
+
+/* Styles for the header and navigation bar */
+body {
+    zoom: 30%;
+  }
+  
+header {
+    background-color: #3b4cca;
+    color: #ffde00;
+    text-align: center;
+    position: fixed;
+    padding: 20px 5px; /* Increase top and bottom padding */
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: start;
+    margin-bottom: 2vh;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 2vw;
+    margin-bottom: 0.8vh;
+    align-content: center;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+    font-size: 2.2vh; /* Increase font size */
+    transition: color 0.3s; /* Add a smooth transition effect for color changes */
+    background-color: #ffde00;
+    border-radius: 2.5vh;
+    padding: 1vh;
+    font-style: bold;
+    
+    
+}
+
+/* Add a hover effect to change the text color when hovered */
+nav ul li a:hover {
+    color: #ffcc00; /* Change the text color to a different color on hover */
+    background-color:#ff0000 ;
+}
+nav ul li #mint {
+    color: #ffcc00; /* Change the text color to a different color on hover */
+    background-color:#ff0000 ;
+}
+
+/* Styles for the main content */
+.main {
+    text-align: center;
+    background: url("thimo-pedersen-dip9IIwUK6w-unsplash.jpg") no-repeat center/cover; 
+    max-height: 100%;
+    max-width: 100%;
+    border-top-right-radius: 0%;
+    margin:0 ;
+}
+
+.content {
+    
+
+    border-radius: 0;
+    border: 0;
+    min-height: calc(100vh);
+    min-width: calc(100vw);
+    
+}
+
+h1 {
+    font-family: 'Jost', sans-serif;
+    margin-top: 10vh;
+}
+
+/* Add more styles for your specific elements as needed */
+.pokemon {
+    width: 30vw; /* Increase the width */
+    height: 15vh; /* Increase the height */
+}
+
+.pokemon2 {
+    width: 10vw; /* Increase the width */
+    height: 15vh; /* Increase the height */
+}
+
+
+
+
+
+#logo {
+    position: relative;
+    height: 5vh;
+    width: 1vw;
+}
+
+/* Add styles for the form */
+form {
+    text-align: center;
+    margin: 5vh;
+    padding: 5vh;
+    background-color: rgba(255, 255, 255, 0.9); /* 0.9 sets the opacity (0-1) */
+    border: 1px solid #ccc;
+    border-radius: 2vh;
+    max-width: 40vw;
+    margin: 0 auto;
+}
+form label {
+    display: block;
+    margin-top: 2vh;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 2vh;
+    margin-top: 1vh;
+    border: 1px solid #ccc;
+    border-radius: 1vh;
+    font-size: 2vh;
+}
+
+form input[type="submit"] {
+    background-color: #3b4cca;
+    color: #ffde00;
+    padding: 2vh 4vw;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    font-size: 2vh;
+    margin-top: 2vh;
+}
+
+/* Add more styles for specific form elements as needed */
+/* Font size recommendations in 'vh' units */
+body {
+    font-size: 2vh; /* Base font size for the body */
+}
+
+form label {
+    font-size: 2vh; /* Label font size */
+}
+
+form input[type="text"] {
+    font-size: 2vh; /* Input text font size */
+}
+
+form input[type="submit"] {
+    font-size: 1vw; /* Submit button font size */
+    font-weight: bold;
+}
+
+/* Additional text styles */
+p {
+    font-size: 2.5vh; /* Example for other text on the page */
+}
+
+h1 {
+    font-size: 4vh; /* Example for header text */
+}
+
+/* Adjust the font-size values as needed for your design */
+
+
+/* Add more styles for specific form elements as needed */
+
+
+
+

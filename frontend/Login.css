@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: url("pokemon-card-background-1200-x-900-2gaz64cngkl58x4o\(1\).jpg") no-repeat center/cover; /* Replace with your background image URL */
+    color: #fff;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+    font-weight: bold;
+    font-family: "Pokemon Solid", sans-serif;
+    -webkit-text-fill-color: #ffcc29;
+    -webkit-text-stroke: 2px #4a90e2;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    background: #ffcc29;
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    background: #ffcc29;
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ffc107;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.pokemon {
+    width: 370px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+}
+.pokemon2 {
+    width: 100px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+}
+
+
